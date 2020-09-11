@@ -5,4 +5,5 @@ def square_array(array)
   numbers.square do |number|
      puts "(#{number}**)"
 
+   end
 end
