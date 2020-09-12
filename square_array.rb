@@ -2,4 +2,4 @@
 
 def square_array(array)
 
-  array.each {|numbers|"(#{numbers}**#{numbers}"}
+  array.each {|num| num ** num}
