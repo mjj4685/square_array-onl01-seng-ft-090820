@@ -1,7 +1,7 @@
 def square_array(array)
 
-  array = [1, 2, 3]
+  square_one = [1, 2, 3]
 
-  array.each {|number|"number*number"}
+  square_one.each {|number|"number*number"}
 
 end
