@@ -1,9 +1,9 @@
 def square_array(array)
 
-  numbers = [1,2,3]
+  old_numbers = [1,2,3]
 
-  numbers.square do |number|
-     puts "(#{number}**)"
+  old_numbers.square do |new_numbers|
+     puts "(#{new_numbers}**)"
 
    end
 end
